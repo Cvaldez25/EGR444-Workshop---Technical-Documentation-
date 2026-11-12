@@ -1,0 +1,31 @@
+section_id,title,text
+1,Safety precautions before service,"Disconnect and lock out the main power supply before opening the motor housing. Wait five minutes for the drive capacitors to discharge, then confirm zero voltage with a meter."
+2,Motor fails to start,"If the motor does not start when the run command is given, check that supply voltage is present at the drive input terminals. Inspect the fuse and reset the circuit breaker if it has tripped."
+3,No rotation with power applied,"When power is present but the shaft does not rotate, the load may be jammed or the brake may still be engaged. Release the brake and try rotating the shaft by hand."
+4,Turning the shaft during installation,"During installation, align the coupling by turning the shaft slowly by hand. The shaft should rotate smoothly without binding before the motor is bolted to its base."
+5,Checking the power supply,Measure the DC supply with a multimeter. The reading should be within 10 percent of the rated voltage on the nameplate. Low voltage causes weak torque and slow acceleration.
+6,Blown fuse replacement,A blown fuse usually means a short circuit or a stalled rotor. Find and correct the cause before installing a new fuse of the same rating. Never use a larger fuse.
+7,Brush wear inspection,Carbon brushes wear down with use. Replace brushes when they are shorter than 6 mm or when the brush face is chipped. Worn brushes cause sparking and intermittent operation.
+8,Commutator cleaning,"A dirty or burned commutator causes poor contact with the brushes. Clean it with a commutator stone while the motor turns slowly, then blow out the dust with dry air."
+9,Motor overheating,"If the housing is too hot to touch, the motor may be overloaded or the cooling vents may be blocked. Clear the vents and measure the running current against the nameplate rating."
+10,Thermal overload trip,"The thermal overload relay opens the circuit when the motor draws too much current for too long. Let the motor cool for 15 minutes, find the cause of the overload, then press the reset button."
+11,Excessive vibration,"Vibration is usually caused by a loose mounting, a misaligned coupling, or worn bearings. Tighten the mounting bolts and check coupling alignment with a straight edge."
+12,Bearing noise,"A grinding or squealing sound from the motor ends points to dry or damaged bearings. Sealed bearings cannot be lubricated, so replace them as a set."
+13,Speed is too slow,"If the motor runs below rated speed, check for low supply voltage, a heavy load, or a speed setpoint that is set too low on the controller."
+14,Speed is unstable or hunting,Speed that rises and falls repeatedly is called hunting. Lower the proportional gain on the speed controller and check the tachometer or encoder wiring for loose connections.
+15,Motor runs in the wrong direction,"To reverse a permanent magnet DC motor, swap the two armature leads. On drives with a direction input, check the forward and reverse command wiring."
+16,Encoder feedback fault,"An encoder fault code means the drive has lost position or speed feedback. Check the encoder cable shield, connector pins, and the 5 V encoder supply."
+17,Drive fault codes,"The drive display shows a fault code when it stops the motor. Look up the code in the fault table, correct the cause, then clear the fault by cycling the enable input."
+18,Enable and run signals,The drive will not output power until both the enable input and the run command are active. Check that the safety interlock chain is closed and the enable LED is lit.
+19,Emergency stop circuit,"If the emergency stop button is pressed or a door switch is open, the safety relay removes power from the motor. Release the e-stop and press the reset button to restore power."
+20,Wiring and terminal connections,"Loose terminal screws cause voltage drop, heat, and intermittent faults. Torque all terminals to the values in the wiring table and look for discolored or melted insulation."
+21,Insulation resistance test,Use a megohmmeter at 500 V DC to test the armature and field windings to ground. A reading below 1 megohm indicates damp or damaged insulation.
+22,Field winding failure,"On wound field motors, an open field winding can cause the motor to overspeed or fail to develop torque. Measure field resistance and compare it to the test sheet."
+23,Armature short circuit,A shorted armature coil draws high current and may blow the fuse or trip the drive immediately. Test the armature with a growler or a bar-to-bar resistance check.
+24,Sparking at the brushes,"Heavy sparking at the brushes means worn brushes, wrong brush grade, a rough commutator, or an overload. Light blue sparking under load is normal."
+25,Burning smell,"A burning smell usually comes from overheated windings or insulation. Stop the motor immediately, disconnect power, and perform an insulation resistance test before restarting."
+26,Brake adjustment,The holding brake must release fully when energized. Adjust the air gap to the value on the brake label and check that the brake coil receives its rated voltage.
+27,Routine maintenance schedule,"Inspect brushes every 500 operating hours, clean the commutator every 1000 hours, and check bearings and mounting bolts every 2000 hours. Record all readings in the service log."
+28,Storage and humidity,Motors stored in damp areas can absorb moisture into the windings. Dry the motor in a warm room or with low current heating before applying full voltage.
+29,Cooling fan operation,"Most enclosed motors use a shaft-mounted fan. Turn on the auxiliary blower before running the motor at low speed for long periods, since the shaft fan moves little air when slow."
+30,Contacting technical support,"Before calling support, record the motor nameplate data, drive model, fault code, and a description of the symptom. Photos of the wiring help the technician diagnose the problem."
